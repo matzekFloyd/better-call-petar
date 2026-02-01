@@ -19,7 +19,7 @@ ich freue mich, dass Sie meine Kanzlei besuchen. Mit langjähriger Erfahrung in 
 
 Mein Ziel ist es, Ihre Interessen mit Engagement und Fachkompetenz zu vertreten – ob in Beratung, außergerichtlicher Einigung oder vor Gericht.
 
-Vereinbaren Sie ein unverbindliches Erstgespräch. Ich berate Sie gern.`,
+Vereinbaren Sie ein unverbindliches Erstgespräch. Ich berate Sie ungern.`,
     contactTitle: 'Kontakt',
     phone: 'Telefon',
     email: 'E-Mail',
@@ -61,7 +61,7 @@ I am pleased to welcome you to my law office. With many years of experience in v
 
 My aim is to represent your interests with dedication and expertise – whether in advisory work, out-of-court settlement, or in court.
 
-Schedule a non-binding initial consultation. I look forward to advising you.`,
+Schedule a non-binding initial consultation. I advise you reluctantly.`,
     contactTitle: 'Contact',
     phone: 'Phone',
     email: 'Email',
@@ -101,7 +101,7 @@ Responsible for content: Law Office`,
 
 Циљ ми је да ваше интересе заступам са посвећеношћу и стручношћу – било у саветовању, вансудском поравнању или пред судом.
 
-Закажите бесплатни први разговор. Радо ћу вас саветовати.`,
+Закажите бесплатни први разговор. Нерадо ћу вас саветовати.`,
     contactTitle: 'Контакт',
     phone: 'Телефон',
     email: 'Е-маил',
