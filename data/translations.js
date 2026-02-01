@@ -15,9 +15,9 @@ export const translations = {
     heading: 'Ihr Rechtsanwalt',
     intro: `Sehr geehrte Damen und Herren,
 
-ich freue mich, dass Sie meine Kanzlei besuchen. Mit langjähriger Erfahrung in verschiedenen Rechtsgebieten stehe ich Ihnen als verlässlicher Partner zur Seite.
+ich freue mich mäßig, dass Sie meine Kanzlei besuchen. Mit langjähriger Erfahrung in verschiedenen Rechtsgebieten stehe ich Ihnen als verlässlicher Partner zur Seite.
 
-Mein Ziel ist es, Ihre Interessen mit Engagement und Fachkompetenz zu vertreten – ob in Beratung, außergerichtlicher Einigung oder vor Gericht.
+Mein Ziel ist es, Ihre Interessen mit Engagement und Fachkompetenz zu vertreten – ob in Beratung, außergerichtlicher Einigung oder vor Gericht. Denn schließlich gilt es, jede Frage mit „Kommt drauf an“ zu beantworten.
 
 Vereinbaren Sie ein unverbindliches Erstgespräch. Ich berate Sie ungern.`,
     contactTitle: 'Kontakt',
@@ -57,9 +57,9 @@ Verantwortlich für den Inhalt: Kanzlei`,
     heading: 'Your Attorney',
     intro: `Dear visitors,
 
-I am pleased to welcome you to my law office. With many years of experience in various areas of law, I am here to support you as a reliable partner.
+I am moderately pleased to welcome you to my law office. With many years of experience in various areas of law, I am here to support you as a reliable partner.
 
-My aim is to represent your interests with dedication and expertise – whether in advisory work, out-of-court settlement, or in court.
+My aim is to represent your interests with dedication and expertise – whether in advisory work, out-of-court settlement, or in court. After all, the aim is to answer every question with „it depends“.
 
 Schedule a non-binding initial consultation. I advise you reluctantly.`,
     contactTitle: 'Contact',
@@ -94,12 +94,12 @@ Responsible for content: Law Office`,
   },
   sr: {
     metaTitle: 'Адвокат | Адвокатска канцеларија',
-    heading: 'Ваш адвокат (POZ BRATE)',
+    heading: 'Поздрав брате',
     intro: `Поштовани,
 
-драго ми је да сте посетили моју адвокатску канцеларију. Са дугогодишњим искуством у различитим областима права, ту сам да вам будем поуздан партнер.
+умерено ми је драго да сте посетили моју адвокатску канцеларију. Са дугогодишњим искуством у различитим областима права, ту сам да вам будем поуздан партнер.
 
-Циљ ми је да ваше интересе заступам са посвећеношћу и стручношћу – било у саветовању, вансудском поравнању или пред судом.
+Циљ ми је да ваше интересе заступам са посвећеношћу и стручношћу – било у саветовању, вансудском поравнању или пред судом. На крају крајева, сврха је да на свако питање одговоримо „зависи“.
 
 Закажите бесплатни први разговор. Нерадо ћу вас саветовати.`,
     contactTitle: 'Контакт',
