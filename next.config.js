@@ -5,6 +5,11 @@ const nextConfig = {
   redirects() {
     return [
       {
+        source: '/',
+        destination: '/de',
+        permanent: false,
+      },
+      {
         source: '/docs',
         destination: 'https://docs.netlify.com/frameworks/next-js/overview/',
         permanent: false,
