@@ -5,15 +5,23 @@
 @theme {
     --background-image-noise: linear-gradient(
             to bottom,
-            color-mix(in oklab, var(--color-neutral-950) 0%, transparent),
-            color-mix(in oklab, var(--color-neutral-950) 100%, transparent)
+            #ffffff,
+            #fdf2f8,
+            #fce7f3
         ),
         url('/images/noise.png');
-    --color-primary: #2bdcd2;
-    --color-primary-content: #171717;
-    --color-secondary: #016968;
+    --color-primary: #db2777;
+    --color-primary-content: #ffffff;
+    --color-secondary: #be185d;
     --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
         'Noto Color Emoji';
+}
+
+@layer utilities {
+    .bg-noise {
+        background-image: var(--background-image-noise);
+        background-size: 100% 100%, auto;
+    }
 }
 
 @layer base {
@@ -80,7 +88,7 @@
     }
 
     .input {
-        @apply px-4 py-3 text-sm border rounded-sm border-neutral-300 text-neutral-900 focus:border-primary focus:outline-3 focus:outline-primary/30;
+        @apply px-4 py-3 text-sm border rounded-sm border-neutral-300 text-neutral-900 focus:border-primary focus:outline-3 focus:outline-primary/30 min-h-[44px];
     }
 
     .diff {

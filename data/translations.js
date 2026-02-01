@@ -2,10 +2,11 @@
  * Übersetzungen für die Anwalts-Webseite
  * DE = Deutsch, EN = Englisch, SR = Serbisch
  */
+// flagId: ISO 3166-1 alpha-2 für Flaggen-CDN (de, gb, rs)
 export const languages = [
-  { code: 'de', label: 'Deutsch' },
-  { code: 'en', label: 'English' },
-  { code: 'sr', label: 'Српски' },
+  { code: 'de', label: 'Deutsch', flagId: 'de' },
+  { code: 'en', label: 'English', flagId: 'gb' },
+  { code: 'sr', label: 'Српски', flagId: 'rs' },
 ];
 
 export const translations = {
@@ -25,6 +26,31 @@ Vereinbaren Sie ein unverbindliches Erstgespräch. Ich berate Sie gern.`,
     address: 'Adresse',
     officeHours: 'Sprechzeiten',
     officeHoursValue: 'Mo–Fr 9:00–19:00, Termine nach Vereinbarung',
+    // Kontaktformular
+    contactPageTitle: 'Kontakt',
+    formName: 'Name',
+    formEmail: 'E-Mail',
+    formMessage: 'Nachricht',
+    formSend: 'Senden',
+    formSuccess: 'Vielen Dank. Ihre Nachricht wurde gesendet.',
+    formError: 'Beim Senden ist ein Fehler aufgetreten.',
+    // Impressum
+    impressumTitle: 'Impressum',
+    impressumContent: `Angaben gemäß Informationspflicht
+
+Kanzlei
+Kompetenzstraße 1
+1010 Wien
+
+Kontakt: bettermailpetar@hotmail.com / +43 1 234 56 789
+
+Berufsbezeichnung: Rechtsanwalt
+Zuständige Rechtsanwaltskammer: Rechtsanwaltskammer Wien
+
+EU-Streitschlichtung: https://consumer-redress.ec.europa.eu/
+Verbraucherinformation: https://www.wko.at/vertragsrecht/alternative-streitbeilegung-verbraucherangelegenheiten
+
+Verantwortlich für den Inhalt: Kanzlei`,
   },
   en: {
     metaTitle: 'Attorney at Law | Law Office',
@@ -42,6 +68,29 @@ Schedule a non-binding initial consultation. I look forward to advising you.`,
     address: 'Address',
     officeHours: 'Office hours',
     officeHoursValue: 'Mon–Fri 9:00–19:00, appointments by arrangement',
+    contactPageTitle: 'Contact',
+    formName: 'Name',
+    formEmail: 'Email',
+    formMessage: 'Message',
+    formSend: 'Send',
+    formSuccess: 'Thank you. Your message has been sent.',
+    formError: 'An error occurred while sending.',
+    impressumTitle: 'Legal Notice',
+    impressumContent: `Information in accordance with legal requirements
+
+Law Office
+Kompetenzstraße 1
+1010 Vienna, Austria
+
+Contact: bettermailpetar@hotmail.com / +43 1 234 56 789
+
+Professional title: Attorney at Law
+Bar association: Vienna Bar Association (Rechtsanwaltskammer Wien)
+
+EU dispute resolution: https://consumer-redress.ec.europa.eu/
+Consumer information: https://www.wko.at/vertragsrecht/alternative-streitbeilegung-verbraucherangelegenheiten
+
+Responsible for content: Law Office`,
   },
   sr: {
     metaTitle: 'Адвокат | Адвокатска канцеларија',
@@ -59,6 +108,29 @@ Schedule a non-binding initial consultation. I look forward to advising you.`,
     address: 'Адреса',
     officeHours: 'Радно време',
     officeHoursValue: 'Пон–Пет 9:00–19:00, термини по договору',
+    contactPageTitle: 'Контакт',
+    formName: 'Име',
+    formEmail: 'Е-маил',
+    formMessage: 'Порука',
+    formSend: 'Пошаљи',
+    formSuccess: 'Хвала. Ваша порука је послата.',
+    formError: 'Дошло је до грешке при слању.',
+    impressumTitle: 'Правна напомена',
+    impressumContent: `Информације у складу са законским захтевима
+
+Адвокатска канцеларија
+Kompetenzstraße 1
+1010 Беч, Аустрија
+
+Контакт: bettermailpetar@hotmail.com / +43 1 234 56 789
+
+Стручна титула: Адвокат
+Адвокатска комора: Бечка адвокатска комора (Rechtsanwaltskammer Wien)
+
+ЕУ решавање спорова: https://consumer-redress.ec.europa.eu/
+Информације за потрошаче: https://www.wko.at/vertragsrecht/alternative-streitbeilegung-verbraucherangelegenheiten
+
+Одговоран за садржај: Адвокатска канцеларија`,
   },
 };
 

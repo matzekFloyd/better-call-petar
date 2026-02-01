@@ -9,17 +9,23 @@ export const metadata = {
     }
 };
 
+export const viewport = {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5
+};
+
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
+        <html lang="en" className="overflow-x-hidden">
             <head>
                 <link rel="icon" href="/favicon.svg" sizes="any" />
             </head>
-            <body className="antialiased text-white bg-blue-900">
-                <div className="flex flex-col min-h-screen px-6 bg-noise sm:px-12">
+            <body className="antialiased text-neutral-800 bg-noise overflow-x-hidden">
+                <div className="flex flex-col min-h-screen w-full min-w-0 px-4 sm:px-6 md:px-12">
                     <div className="flex flex-col w-full max-w-5xl mx-auto grow">
                         <Header />
-                        <main className="grow">{children}</main>
+                        <main className="grow min-w-0 w-full">{children}</main>
                         <Footer />
                     </div>
                 </div>
